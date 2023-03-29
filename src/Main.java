@@ -1,8 +1,7 @@
 package src;
-import src.lwjgl.*;
+import src.rendering.*;
 public class Main {
     public static void main(String[] args){
-        Viewport v=new Viewport();
-        
+        new Viewport("BurgerTime");
     }
 }
